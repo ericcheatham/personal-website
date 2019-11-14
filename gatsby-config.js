@@ -2,24 +2,48 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'Juliette Pretot',
-    description: 'Gatsby TypeScript Skeleton Starter',
-    siteUrl: 'https://juliette.sh',
+    title: 'Eric Cheatham',
+    siteUrl: 'https://ericcheatham.dev',
     author: {
-      name: 'Juliette Pretot',
-      url: 'https://juliette.sh',
-      email: 'hi@juliette.sh'
+      name: 'Eric Cheatham',
+      url: 'https://ericcheatham.dev',
     }
   },
   plugins: [
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'src',
-        path: `${__dirname}/src`
+        name: 'pages',
+        path: `${__dirname}/src/pages`
       }
     },
-    'gatsby-transformer-remark',
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 1000,
+              linkImagesToOriginal: false,
+              backgroundColor: 'transparent'
+            }
+          },
+          'gatsby-remark-copy-linked-files',
+          {
+            resolve: 'gatsby-remark-smartypants',
+            options: {
+              dashes: 'oldschool'
+            }
+          }
+        ]
+      }
+    },
+    'gatsby-transformer-sqip',
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
+    'gatsby-plugin-offline',
+    'gatsby-plugin-styled-components',
     'gatsby-plugin-styled-components',
     'gatsby-plugin-typescript',
     'gatsby-plugin-react-helmet',
