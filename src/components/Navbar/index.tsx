@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import NavbarLink from '~/components/NavbarLink'
 import { IconProps } from '~/components/Icons/types'
 import HomeIcon from '~/components/Icons/HomeIcon'
+import ResumeIcon from '~/components/Icons/ResumeIcon'
 
 const NavbarWrapper = styled.nav`
   position: fixed;
@@ -63,18 +64,24 @@ const InnerNavbarWrapper = styled.div`
   }
 `
 const Navbar: React.FunctionComponent<{
-    pathname: string
+  pathname: string
 }> = ({ pathname }) => (
-    <NavbarWrapper>
-        <InnerNavbarWrapper>
-           <NavbarLink
-           to="/"
-           isActive={new RegExp('^/$|^/about').test(pathname)}
-           Icon={(props: IconProps) => <HomeIcon {...props} />}
-           label="Home"
-           />
-        </InnerNavbarWrapper>
-    </NavbarWrapper>
+  <NavbarWrapper>
+    <InnerNavbarWrapper>
+      <NavbarLink
+        to="/"
+        isActive={new RegExp('^/$|^/about').test(pathname)}
+        Icon={(props: IconProps) => <HomeIcon {...props} />}
+        label="Home"
+      />
+      <NavbarLink
+        to="/resume"
+        isActive={new RegExp('^/resume').test(pathname)}
+        Icon={(props: IconProps) => <ResumeIcon {...props} />}
+        label="Resume"
+      />
+    </InnerNavbarWrapper>
+  </NavbarWrapper>
 )
 
 export default Navbar

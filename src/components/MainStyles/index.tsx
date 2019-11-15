@@ -1,7 +1,11 @@
+import "typeface-poppins"
 import { createGlobalStyle, css } from 'styled-components'
 
 const MainStyles = createGlobalStyle`
   :root {
+    /* fonts */
+    --primaryFont: Poppins;
+
     /* colors */
     --background-color: hsl(217, 36%, 10%);
     --pink: hsl(0, 82%, 85%);
@@ -81,7 +85,6 @@ const MainStyles = createGlobalStyle`
     font-feature-settings: 'calt' 1;
     font-variant-ligatures: contextual;
     font-size: 24px;
-    word-spacing: -0.25ch;
     line-height: 1.4;
 
     ${({ isApp }: { isApp: Boolean }) =>
@@ -124,12 +127,6 @@ const MainStyles = createGlobalStyle`
   h3,
   h3 a {
     color: var(--blue);
-  }
-
-  h1,
-  h2,
-  h3 {
-    word-spacing: -0.3ch;
   }
 
   h4,
@@ -202,13 +199,6 @@ const MainStyles = createGlobalStyle`
     h1,
     h1 a {
       font-size: 32pt;
-    }
-
-    h1,
-    h2,
-    h3 {
-      word-spacing: -0.3ch;
-      word-spacing: initial;
     }
   }
 `
