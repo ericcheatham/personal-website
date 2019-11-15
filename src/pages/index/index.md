@@ -11,6 +11,6 @@ At **Dwolla** I develop a highly available white label API for moving money usin
 
 <span class="secondary-text">
 
-For more details, hit me up at hi@ericcheatham.dev
+For more details, hit me up at [hi@ericcheatham.dev](mailto:hi@ericcheatham.dev)
 
 </span>
