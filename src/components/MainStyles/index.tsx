@@ -1,4 +1,4 @@
-import "typeface-poppins"
+import 'typeface-poppins'
 import { createGlobalStyle, css } from 'styled-components'
 
 const MainStyles = createGlobalStyle`
@@ -88,8 +88,8 @@ const MainStyles = createGlobalStyle`
     line-height: 1.4;
 
     ${({ isApp }: { isApp: Boolean }) =>
-        isApp &&
-        css`
+      isApp &&
+      css`
         /* force full height on iOS */
         min-height: 100vh;
       `}

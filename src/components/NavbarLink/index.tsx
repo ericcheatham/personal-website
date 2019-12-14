@@ -3,7 +3,6 @@ import { Link } from 'gatsby'
 import styled, { css } from 'styled-components'
 import { IconProps } from '~/components/Icons/types'
 
-
 const StyledLink = styled(Link)`
   transition: all 100ms ease-in-out;
   position: relative;
@@ -31,8 +30,8 @@ const StyledLink = styled(Link)`
     padding: 0.45rem 1.5rem;
   }
   ${({ isActive }: { isActive: Boolean }) =>
-        isActive &&
-        css`
+    isActive &&
+    css`
       color: var(--blue);
     `}
   @media (max-width: 700px) {
@@ -40,8 +39,6 @@ const StyledLink = styled(Link)`
     margin: 0.3rem 0;
   }
 `
-
-
 
 const InnerWrapper = styled.div`
   display: flex;
@@ -59,21 +56,18 @@ const Caption = styled.span`
   }
 `
 
-
-
 const NavbarLink: React.FunctionComponent<{
-    isActive: boolean
-    to: string
-    label: string
-    Icon: (props: IconProps) => JSX.Element
-}> =
-    ({ isActive, to, label, Icon }) => (
-        <StyledLink isActive={isActive} to={to}>
-            <InnerWrapper>
-                {Icon({ isFilled: isActive })}
-                <Caption>{label}</Caption>
-            </InnerWrapper>
-        </StyledLink>
-    )
+  isActive: boolean
+  to: string
+  label: string
+  Icon: (props: IconProps) => JSX.Element
+}> = ({ isActive, to, label, Icon }) => (
+  <StyledLink isActive={isActive} to={to}>
+    <InnerWrapper>
+      {Icon({ isFilled: isActive })}
+      <Caption>{label}</Caption>
+    </InnerWrapper>
+  </StyledLink>
+)
 
 export default NavbarLink
