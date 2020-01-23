@@ -13,6 +13,7 @@ const Container = styled.div`
   @media (min-width: 750px) {
     margin-top: 0;
     margin-left: 45vw;
+    margin-bottom: 20px;
     position: relative;
   }
 `

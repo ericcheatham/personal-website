@@ -60,6 +60,12 @@ const Navbar: React.FunctionComponent<{
         Icon={(props: IconProps) => <ResumeIcon {...props} />}
         label="Resume"
       />
+      <NavbarLink
+        to="/using"
+        isActive={new RegExp('^/using').test(pathname)}
+        Icon={(props: IconProps) => <ResumeIcon {...props} />}
+        label="My Setup"
+      />
     </InnerNavbarWrapper>
   </NavbarWrapper>
 )
