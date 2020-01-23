@@ -9,18 +9,16 @@ const StyledLink = styled(Link)`
   user-select: none;
   -webkit-tap-highlight-color: transparent;
   text-align: center;
-  color: var(--gray);
+  color: var(--white);
   font-weight: bold;
   font-size: 92.5%;
-  line-height: 1;
   text-decoration: none;
   padding: 0.45rem 0.9rem;
   margin: 0.5rem 0;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  border-radius: 10px;
   -webkit-tap-highlight-color: transparent;
   &:hover {
     color: var(--blue);
@@ -32,7 +30,7 @@ const StyledLink = styled(Link)`
   ${({ isActive }: { isActive: Boolean }) =>
     isActive &&
     css`
-      color: var(--blue);
+      border-bottom: 2px solid var(--white);
     `}
   @media (max-width: 700px) {
     padding: 0.35rem 1.5rem;
@@ -42,14 +40,14 @@ const StyledLink = styled(Link)`
 
 const InnerWrapper = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-start;
   align-items: center;
 `
 
 const Caption = styled.span`
-  font-size: 0.95rem;
-  text-transform: uppercase;
+  /* font-size: 0.95rem; */
+  margin-left: 0.5rem;
   display: block;
   @media (max-width: 700px) {
     font-size: 0.8rem;
