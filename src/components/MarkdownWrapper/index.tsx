@@ -70,12 +70,6 @@ const MarkdownWrapper = styled.div`
     font-style: normal;
   }
 
-  b,
-  strong {
-    color: var(--blue);
-    font-weight: normal;
-  }
-
   strong em,
   em strong,
   b i,
@@ -94,7 +88,7 @@ const MarkdownWrapper = styled.div`
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
     text-decoration: none;
-    color: var(--green);
+    color: var(--lightBlue);
     transition-duration: 300ms;
     border-bottom: var(--translucentGreen) 2px solid;
   }
@@ -121,13 +115,13 @@ const MarkdownWrapper = styled.div`
     margin: 13px 0;
   }
 
-  .secondary-text,
-  .secondary-text a {
+  .secondary-text {
     color: var(--gray);
   }
 
   .secondary-text a {
-    border-bottom: 2px solid var(--translucentGray);
+    border-bottom: 2px solid var(--blue);
+    color: var(--blue);
   }
 `
 

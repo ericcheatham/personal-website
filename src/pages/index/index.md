@@ -1,13 +1,14 @@
 ---
 templateKey: IndexPage
-title: Hello, World!
 featuredImage: me.jpg
 style: index
 ---
 
-My name is **_Eric Cheatham_**.
+Hello, World! My name is:
 
-At **Dwolla** I develop a highly available white label API for moving money using Scala, and C#. I'm also a **African American Leadership Academy** fellow.
+<h1>Eric Cheatham</h1>
+
+I currently work at Dwolla where I use Scala and C# to build a white-label API for moving money on the ACH network. I am also a African American Leadership Academy fellow.
 
 <span class="secondary-text">
 

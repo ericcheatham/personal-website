@@ -18,7 +18,7 @@ const MainStyles = createGlobalStyle`
     --lowTranslucentOrange: hsla(24, 86%, 73%, 0.2);
     --blue: hsl(209, 36%, 70%);
     --lightBlue: hsl(179, 40%, 70%);
-    --green: hsl(152, 25%, 53%);
+    --green: #8EC1C1;
     --translucentGreen: hsla(153, 36%, 59%, 0.6);
 
     /* sizing */
@@ -80,7 +80,7 @@ const MainStyles = createGlobalStyle`
 
   body {
     background: var(--background-color);
-    color: var(--green);
+    color: var(--lightGray);
     font-family: var(--primaryFont);
     font-feature-settings: 'calt' 1;
     font-variant-ligatures: contextual;
@@ -108,7 +108,7 @@ const MainStyles = createGlobalStyle`
 
   h1,
   h1 a {
-    color: var(--pink);
+    color: var(--green);
   }
 
   h2 {
