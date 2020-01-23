@@ -1,7 +1,7 @@
 ---
 templateKey: IndexPage
 title: Hello, World!
-featuredImage: ./me.jpg
+featuredImage: me.jpg
 style: index
 ---
 
