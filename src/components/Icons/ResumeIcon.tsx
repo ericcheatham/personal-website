@@ -1,5 +1,5 @@
 import React from 'react'
-import NavbarIcon from '~/components/NavbarIcon'
+import NavbarIcon from '~/components/NavbarIcon/navbarIcon'
 import { IconType } from './types'
 import { User } from 'grommet-icons'
 

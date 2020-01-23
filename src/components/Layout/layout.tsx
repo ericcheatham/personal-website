@@ -1,6 +1,6 @@
 import React from 'react'
-import MainStyles from '~/components/MainStyles'
-import Navbar from '~/components/Navbar'
+import MainStyles from '~/components/MainStyles/mainStyles'
+import Navbar from '~/components/Navbar/navbar'
 import styled from 'styled-components'
 import Img, { FluidObject } from 'gatsby-image'
 

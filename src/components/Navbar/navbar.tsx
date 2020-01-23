@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import NavbarLink from '~/components/NavbarLink'
+import NavbarLink from '~/components/NavbarLink/navbarLink'
 import { IconProps } from '~/components/Icons/types'
 import HomeIcon from '~/components/Icons/HomeIcon'
 import ResumeIcon from '~/components/Icons/ResumeIcon'

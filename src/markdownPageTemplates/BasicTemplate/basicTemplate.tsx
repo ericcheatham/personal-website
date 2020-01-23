@@ -1,8 +1,8 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import Layout from '~/components/Layout'
-import PageWrapper from '~/components/PageWrapper'
-import MarkdownWrapper from '~/components/MarkdownWrapper'
+import Layout from '~/components/Layout/layout'
+import PageWrapper from '~/components/PageWrapper/pageWrapper'
+import MarkdownWrapper from '~/components/MarkdownWrapper/markdownWrapper'
 
 const BasicTemplate: React.FunctionComponent<{
   data: any // type checked by GraphQL

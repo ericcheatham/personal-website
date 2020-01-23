@@ -1,8 +1,8 @@
 import * as React from 'react'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
-import Layout from '~/components/Layout'
-import PageWrapper from '~/components/PageWrapper'
+import Layout from '~/components/Layout/layout'
+import PageWrapper from '~/components/PageWrapper/pageWrapper'
 
 const ButtonWrapper = styled.div`
   display: flex;
