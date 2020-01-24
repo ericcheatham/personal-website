@@ -81,7 +81,7 @@ const MainStyles = createGlobalStyle`
 
   body {
     background: var(--background-color);
-    color: var(--lightGray);
+    color: var(--white);
     font-family: var(--primaryFont);
     font-feature-settings: 'calt' 1;
     font-variant-ligatures: contextual;

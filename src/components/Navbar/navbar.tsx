@@ -4,6 +4,7 @@ import NavbarLink from '~/components/NavbarLink/navbarLink'
 import { IconProps } from '~/components/Icons/types'
 import HomeIcon from '~/components/Icons/HomeIcon'
 import ResumeIcon from '~/components/Icons/ResumeIcon'
+import SetupIcon from '~/components/Icons/SetupIcon'
 
 const NavbarWrapper = styled.nav`
   position: fixed;
@@ -63,7 +64,7 @@ const Navbar: React.FunctionComponent<{
       <NavbarLink
         to="/using"
         isActive={new RegExp('^/using').test(pathname)}
-        Icon={(props: IconProps) => <ResumeIcon {...props} />}
+        Icon={(props: IconProps) => <SetupIcon {...props} />}
         label="My Setup"
       />
     </InnerNavbarWrapper>

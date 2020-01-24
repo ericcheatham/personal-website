@@ -11,12 +11,22 @@ const Container = styled.div`
   position: relative;
 
   @media (min-width: 750px) {
-    margin-top: 0;
-    margin-left: 45vw;
+    margin-left: ${props => props.theme.margin};
     margin-bottom: 20px;
+    margin-top: ${props => props.theme.marginTop};
     position: relative;
   }
 `
+
+const theme = {
+  margin: '45vw',
+  marginTop: '15vh'
+}
+
+const themeCenter = {
+  margin: '20vw',
+  marginTop: '0'
+}
 
 // TODO:  Move values to a constants file
 export const Main = styled.main`
@@ -49,10 +59,12 @@ const Layout: React.FunctionComponent<{
   imageBackgroundColor?: string
 }> = ({ pathname, children, image, imageTitle, imageBackgroundColor }) => {
   const [isApp, setIsApp] = React.useState(false)
+  const [hasImage, setHasImage] = React.useState(false)
   React.useEffect(() => setIsApp('standalone' in window.navigator), [])
+  React.useEffect(() => setHasImage(!!image), [])
 
   return (
-    <Container>
+    <Container theme={hasImage ? theme : themeCenter}>
       {image && (
         <Image
           fluid={image}
