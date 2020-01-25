@@ -1,6 +1,6 @@
 ---
 templateKey: BasicTemplate
-title: My Setup
+title: Using
 ---
 
 ## Computer
@@ -17,9 +17,8 @@ title: My Setup
 
 ## Software For Development
 
-- [VS Code](https://code.visualstudio.com/)
-  - Fira font with the ligatures enabled
-  - Python/Typescript/Most languages
+- [VisualStudio Code](https://code.visualstudio.com/)
+  - [Fira Code w/ Ligatures](https://github.com/tonsky/FiraCode)
 - IntelliJ IDEA CE (for Scala/Java)
 - [OhMyZsh](https://ohmyz.sh/)
   - agnoster theme

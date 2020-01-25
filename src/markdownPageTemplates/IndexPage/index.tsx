@@ -1,4 +1,5 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '~/components/Layout/layout'
 import MarkdownWrapper from '~/components/MarkdownWrapper/markdownWrapper'
@@ -17,17 +18,22 @@ const Page: React.FunctionComponent<{
   },
   location: { pathname }
 }) => (
-  <Layout
-    pathname={pathname}
-    image={featuredImage.childImageSharp.fluid}
-    imageTitle="Photo of Eric Cheatham"
-    imageBackgroundColor="transparent"
-  >
-    <div>
-      <h1>{title}</h1>
-      <MarkdownWrapper dangerouslySetInnerHTML={{ __html: html }} />
-    </div>
-  </Layout>
+  <>
+    <Helmet>
+      <title>Eric Cheatham | {title}</title>
+      <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    </Helmet>
+    <Layout
+      pathname={pathname}
+      image={featuredImage.childImageSharp.fluid}
+      imageTitle="Photo of Eric Cheatham"
+      imageBackgroundColor="transparent"
+    >
+      <div>
+        <MarkdownWrapper dangerouslySetInnerHTML={{ __html: html }} />
+      </div>
+    </Layout>
+  </>
 )
 
 export default Page

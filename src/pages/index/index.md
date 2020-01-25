@@ -2,6 +2,7 @@
 templateKey: IndexPage
 featuredImage: me.jpg
 style: index
+title: Home
 ---
 
 Hello, World! My name is:

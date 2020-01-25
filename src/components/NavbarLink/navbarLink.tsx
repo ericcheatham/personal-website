@@ -21,9 +21,6 @@ const StyledLink = styled(Link)`
   justify-content: center;
   align-items: center;
   -webkit-tap-highlight-color: transparent;
-  &:hover {
-    color: var(--blue);
-  }
   @media (max-width: 1100px) {
     width: 2ch;
     padding: 0.45rem 1.5rem;
