@@ -18,7 +18,7 @@ const StyledLink = styled(Link)`
   margin: 0.5rem 0;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   -webkit-tap-highlight-color: transparent;
   &:hover {
@@ -54,7 +54,7 @@ const InnerWrapper = styled.div`
 
 const Caption = styled.span`
   margin-left: 0.5rem;
-  display: block;
+  display: inline;
   @media (max-width: 700px) {
     font-size: 0.8rem;
   }

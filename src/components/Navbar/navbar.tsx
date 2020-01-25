@@ -26,7 +26,7 @@ const NavbarWrapper = styled.nav`
     padding-right: max(var(--responsive-padding), env(safe-area-inset-right));
   }
   @supports ((-webkit-backdrop-filter: blur(15px)) or (backdrop-filter: blur(15px))) {
-    background-color: hsla(221, 20%, 15%, 0.925);
+    /* background-color: hsla(221, 20%, 15%, 0.925); */
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
   }

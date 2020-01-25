@@ -17,10 +17,10 @@ title: My Setup
 
 ## Software For Development
 
-- VS Code
+- [VS Code](https://code.visualstudio.com/)
   - Fira font with the ligatures enabled
   - Python/Typescript/Most languages
 - IntelliJ IDEA CE (for Scala/Java)
-- OhMyZsh
+- [OhMyZsh](https://ohmyz.sh/)
   - agnoster theme
 - [Insomnia](insomnia.rest)
