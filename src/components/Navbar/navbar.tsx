@@ -19,7 +19,6 @@ const NavbarWrapper = styled.nav`
   z-index: 40;
   box-shadow: 2px 0 2px black;
   background-color: #8ec1c1;
-  padding-left: var(--responsive-padding);
   padding-right: var(--responsive-padding);
   padding-bottom: var(--safe-area-inset-bottom);
   @supports (padding: max(0px)) {
@@ -65,7 +64,7 @@ const Navbar: React.FunctionComponent<{
         to="/using"
         isActive={new RegExp('^/using').test(pathname)}
         Icon={(props: IconProps) => <SetupIcon {...props} />}
-        label="My Setup"
+        label="Using"
       />
     </InnerNavbarWrapper>
   </NavbarWrapper>

@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import styled, { css } from 'styled-components'
 import { IconProps } from '~/components/Icons/types'
+import { constants } from '~/styles/constants'
 
 const StyledLink = styled(Link)`
   transition: all 100ms ease-in-out;
@@ -30,7 +31,13 @@ const StyledLink = styled(Link)`
   ${({ isActive }: { isActive: Boolean }) =>
     isActive &&
     css`
-      border-bottom: 2px solid var(--white);
+      ${constants.mq.mobile} {
+        text-decoration: underline;
+      }
+
+      ${constants.mq.tablet} {
+        border-bottom: 2px solid var(--white);
+      }
     `}
   @media (max-width: 700px) {
     padding: 0.35rem 1.5rem;
@@ -46,7 +53,6 @@ const InnerWrapper = styled.div`
 `
 
 const Caption = styled.span`
-  /* font-size: 0.95rem; */
   margin-left: 0.5rem;
   display: block;
   @media (max-width: 700px) {
