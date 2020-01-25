@@ -32,6 +32,10 @@ title: Resume
 - Advise development teams on ways to improve uptimes and reliability of multiple application services running on Google App Engine.
 - Develop support tooling to enable self service for customer support engineers allowing Software Engineers to focus on product improvement.
 
+#### Software Engineering Intern at Pearson Education May 2012 to Aug 2012 Iowa City, IA
+
+- Designed and developed an JSF portal to increase visiblity into standarized testing statistics for a team of 20 analyists.
+
 ## Community Involvement
 
 #### Workiva "Ethnic Diversity in Technology" Affinity Group
