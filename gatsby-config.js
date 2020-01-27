@@ -19,7 +19,7 @@ module.exports = {
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
         display: `standalone`,
-        icon: `src/icon/me-icon.jpg`,
+        icon: `src/images/icon.jpg`,
       },
     },
     {
