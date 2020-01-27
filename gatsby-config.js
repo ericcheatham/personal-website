@@ -11,6 +11,24 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Eric Cheatham's Personal Site`,
+        short_name: `Eric Cheatham`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#a2466c`,
+        display: `standalone`,
+        icon: `src/icon/me-icon.jpg`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: [`/`, `/resume/*`],
+      },
+    },
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'pages',
