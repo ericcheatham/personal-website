@@ -22,29 +22,37 @@ title: Resume
 
 #### Site Reliability Engineer at Workiva Feburary 2017 to June 2018 Ames, IA
 
-- Coordinate efforts between product teams and support teams to develop a sustainable and scalable support plan for their products.
-- Identify, improve, and automate processes central to ongoing support and maintenance of our existing infrastructure
-- Maintain complex application infrastructure across Google and Amazon cloud services during quarterly on-call rotation.
+- Coordinated efforts between product teams and support teams to develop a sustainable and scalable support plan for their products.
+- Identifed, improved, and automated processes central to ongoing support and maintenance of our existing infrastructure
+- Maintained complex application infrastructure across Google and Amazon cloud services during quarterly on-call rotation.
 
 #### Rapid Response Engineer at Workiva May 2013 to Feburary 2017 Ames, IA
 
-- Identify and correct inconsistencies with data in a large scale Google App Engine application.
-- Advise development teams on ways to improve uptimes and reliability of multiple application services running on Google App Engine.
-- Develop support tooling to enable self service for customer support engineers allowing Software Engineers to focus on product improvement.
+- Identified and corrected inconsistencies with data in a large scale Google App Engine application.
+- Advised development teams on ways to improve uptimes and reliability of multiple application services running on Google App Engine.
+- Developed support tooling to enable a team of 10 customer support engineers to self-service common customer issues allowing Software Engineers to focus on product improvement.
 
 #### Software Engineering Intern at Pearson Education May 2012 to Aug 2012 Iowa City, IA
 
 - Designed and developed an JSF portal to increase visiblity into standarized testing statistics for a team of 20 analyists.
 
+#### Software Engineering Intern at Honeywell (formerly Intermec) May 2011 to Dec 2011 Cedar Rapids, IA
+
+- Executed numerous rounds of product testing as part of the customer solution testing operation. This involved validating software and hardware of point-of-sale systems both independently and together as a single product. Each device ran on Windows CE and needed to work the same across a field of 15 different devices each with their own unique use cases.
+
 ## Community Involvement
 
-#### Workiva "Ethnic Diversity in Technology" Affinity Group
+#### Workiva Diversity and Inclusion Committee -- Founder
 
-- Formed an affinity group to inform the conversation around historically underrepresented ethnicitites at Workiva and beyond
+- Created Workiva's first Diversity and Inclusion iniatives at their home office in Iowa. Helped to form a framework that lead to the creation and support of 5 employee affinity/resources groups supporting: Employees of Color, Women, Military Veterans, Parents, and LGBT Workivans.
 
-#### African American Leadership Academy Fellow
+#### African American Leadership Academy -- Fellow
 
-- Took part in an 8 month program to train Black and African American Iowans in the skills needed to find success in the business space in central Iowa and Beyond
+- Graduated from an 8 month program to train Black and African American Iowans in the skills needed to find success in personal, business, and communty engagement. Worked with a team of 10 black professionals with varying industrial backgrounds to host a resource fair in one of Des Moines' largest black neighborhoods
+
+#### Des Moines Neighbors -- Vice Chair
+
+- Helped to rewrite the organizational charter to better engage a younger and more diverse group of neighborhood activist within Des Moines.
 
 ## Education
 
