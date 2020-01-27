@@ -23,12 +23,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-offline`,
-      options: {
-        precachePages: [`/`, `/resume/*`],
-      },
-    },
-    {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'pages',
