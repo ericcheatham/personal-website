@@ -16,8 +16,9 @@ title: Resume
 
 #### Software Engineer at Dwolla, June 2018 to now, Des Moines, IA
 
-- Implemented Knowledge Based Authentication into Dwolla's white label API reducing the instances of manual end user creation by 60%
-- Implemented ability for Dwolla's to accept third party Customer Identification Program validations reducing our operating costs by and upwards of \$10,000 YOY
+- Designed and implemented a Scala microservice to handle Knowledge Based Authentication for API users, reducing instances of manual intervention by 60%
+- Implemented Elasticsearch backed user searching solution, reducing search times by 50% over existing solution
+- Implemented method to accept 3rd party Customer Identification Program validations reducing our operating costs by and upwards of \$10,000 YOY
 - Convert legacy .net C# applications to Scala based microservice alternatives
 
 #### Site Reliability Engineer at Workiva Feburary 2017 to June 2018 Ames, IA
@@ -32,19 +33,23 @@ title: Resume
 - Advised development teams on ways to improve uptimes and reliability of multiple application services running on Google App Engine.
 - Developed support tooling to enable a team of 10 customer support engineers to self-service common customer issues allowing Software Engineers to focus on product improvement.
 
-#### Software Engineering Intern at Pearson Education May 2012 to Aug 2012 Iowa City, IA
+#### Software Engineering Intern at Pearson Education May 2012 to August 2012 Iowa City, IA
 
 - Designed and developed an JSF portal to increase visiblity into standarized testing statistics for a team of 20 analyists.
 
-#### Software Engineering Intern at Honeywell (formerly Intermec) May 2011 to Dec 2011 Cedar Rapids, IA
+#### Software Engineering Intern at Honeywell (formerly Intermec) May 2011 to December 2011 Cedar Rapids, IA
 
 - Executed numerous rounds of product testing as part of the customer solution testing operation. This involved validating software and hardware of point-of-sale systems both independently and together as a single product. Each device ran on Windows CE and needed to work the same across a field of 15 different devices each with their own unique use cases.
+
+#### IT Intern at Newport news Shipbuilding May 2010 to August 2010
+
+- Added additional features to existing Microsoft Access database and corresponding frontend program
 
 ## Community Involvement
 
 #### Workiva Diversity and Inclusion Committee -- Founder
 
-- Created Workiva's first Diversity and Inclusion iniatives at their home office in Iowa. Helped to form a framework that lead to the creation and support of 5 employee affinity/resources groups supporting: Employees of Color, Women, Military Veterans, Parents, and LGBT Workivans.
+- Created Workiva's first Diversity and Inclusion initiatives at their home office in Iowa. Helped to form a framework that lead to the creation and support of 5 employee affinity/resources groups supporting: Employees of Color, Women, Military Veterans, Parents, and LGBT Workivans.
 
 #### African American Leadership Academy -- Fellow
 
