@@ -61,7 +61,8 @@
     "react-helmet": "^5.2.1",
     "styled-components": "^4.4.1",
     "styled-normalize": "^8.0.4",
-    "typeface-poppins": "0.0.72"
+    "typeface-poppins": "0.0.72",
+    "typeface-roboto-condensed": "0.0.75"
   },
   "devDependencies": {
     "babel-plugin-root-import": "^6.4.1",
