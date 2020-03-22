@@ -59,6 +59,7 @@ module.exports = {
     'gatsby-plugin-typescript',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-catch-links',
+    'gatsby-plugin-netlify-cms',
     'gatsby-plugin-offline'
   ]
 }
