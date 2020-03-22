@@ -105,7 +105,6 @@ const IndexPage: React.FunctionComponent<{
                       }}
                     />
                   )}
-
                   <div className="post-content">
                     <h2 className="post-title">{String(title)}</h2>
                     <p>{intro}</p>
