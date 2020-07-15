@@ -1,7 +1,7 @@
 import 'typeface-poppins'
 import { createGlobalStyle, css } from 'styled-components'
 
-const MainStyles = createGlobalStyle`
+export default createGlobalStyle`
   :root {
     /* fonts */
     --primaryFont: Poppins;
@@ -203,5 +203,3 @@ const MainStyles = createGlobalStyle`
     }
   }
 `
-
-export default MainStyles

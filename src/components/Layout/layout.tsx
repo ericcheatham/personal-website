@@ -1,5 +1,5 @@
 import React from 'react'
-import MainStyles from '~/components/MainStyles/mainStyles'
+import GlobalStyles from '~/components/GlobalStyles/globalStyles'
 import Navbar from '~/components/Navbar/navbar'
 import styled from 'styled-components'
 import Img, { FluidObject } from 'gatsby-image'
@@ -91,7 +91,7 @@ const Layout: React.FunctionComponent<{
           title={imageTitle}
         />
       )}
-      <MainStyles isApp={isApp} />
+      <GlobalStyles isApp={isApp} />
       <Navbar pathname={pathname} />
       <Main>{children}</Main>
     </Container>

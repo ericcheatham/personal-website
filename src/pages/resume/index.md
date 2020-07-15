@@ -27,7 +27,7 @@ title: Resume
 - Identifed, improved, and automated processes central to ongoing support and maintenance of our existing infrastructure
 - Maintained complex application infrastructure across Google and Amazon cloud services during quarterly on-call rotation.
 
-#### Rapid Response Engineer at Workiva May 2013 to Feburary 2017 Ames, IA
+#### Software Support Engineer at Workiva May 2013 to Feburary 2017 Ames, IA
 
 - Identified and corrected inconsistencies with data in a large scale Google App Engine application.
 - Advised development teams on ways to improve uptimes and reliability of multiple application services running on Google App Engine.
