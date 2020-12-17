@@ -19,7 +19,7 @@ export default createGlobalStyle`
     --blue: hsl(209, 36%, 70%);
     --lightBlue: hsl(179, 40%, 70%);
     --green: #8EC1C1;
-    --white: #FFF
+    --white: #FFF;
     --translucentGreen: hsla(153, 36%, 59%, 0.6);
 
     /* sizing */
